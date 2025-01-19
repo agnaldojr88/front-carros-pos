@@ -1,0 +1,133 @@
+@import '../../theme.css';
+
+.car-list-container {
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.table-list {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table-list thead {
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5;
+    z-index: 1;
+}
+
+.table-list tbody {
+    display: block;
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+    width: 100%;
+}
+
+.table-list tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-list th,
+.table-list td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.error-message {
+    color: red;
+    margin-bottom: 8px;
+}
+
+.page-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    padding: 18px 8px;
+    margin: 10px;
+    width: 20%;
+}
+
+.form-input-filtro{
+    width: 60%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.buttons .edit-button {
+    background-color: #7f8185;
+    color: white;
+    border: none;
+    padding: 8px 8px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.buttons .delete-button {
+    background-color: rgb(196, 160, 160);
+    color: black;
+    border: none;
+    padding: 8px 8px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.button.active {
+    background-color: #0056b3;
+}
+
+
+
+.fab-button {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+}
+
+
+
+.gerals-button {
+    width: 20%;
+    padding: 19px 0px;
+    margin: 0px 1px;
+    border: none;
+    background: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.cancelation {
+
+    color: rgb(175, 0, 0);
+
+}
+
+.dialog-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    color: var(--text-color, black); /* Use sua variável de tema, se disponível */
+  }

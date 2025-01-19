@@ -1,0 +1,51 @@
+:root {
+    --primary-gradient: #ccc;
+    --secondary-color: #9face6;
+    --background-color: #fff;
+    --text-color: #333;
+    --error-color: #e74c3c;
+    --font-family: 'Arial, sans-serif';
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    --border-radius: 8px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+    background: var(--primary-gradient);
+    color: var(--text-color);
+}
+
+.input-box {
+    width: 70%;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-box:focus {
+    border-color: var(--primary-color);
+}
+
+.button {
+    margin: 0.2rem;
+    padding: 10px 20px;
+    border: none;
+    background: #333;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+.button:active {
+    background: var(--primary-color);
+}
+
+.error-message {
+    color: var(--error-color);
+    font-size: 0.9rem;
+}

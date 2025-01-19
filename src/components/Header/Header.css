@@ -1,0 +1,34 @@
+@import '../../theme.css';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--primary-color);
+  color: black;
+  padding: 1rem 2rem;
+  font-family: var(--font-family), sans-serif;
+}
+
+.header-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: black;
+  font-family: 'Segoe Script', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-menu {
+  position: relative;
+}
+
+.menu-button {
+  background-color: rgb(139, 138, 138);
+  color:  rgb(255, 255, 255);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.8rem 2.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
