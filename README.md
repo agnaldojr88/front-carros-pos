@@ -6,7 +6,7 @@ Matéria: Full Stack com React e Spring Boot [24E4_3] - InfNet
 
 Descrição: 
 
-A descrição completa pode ser encontrada no arquivo Tutorial.pdf
+A descrição completa pode ser encontrada no arquivo PDF postado no portal da InfNet.
 #
 
 
